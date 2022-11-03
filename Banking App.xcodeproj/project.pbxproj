@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		731C42472913D37900BF01BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731C42462913D37900BF01BF /* AppDelegate.swift */; };
 		731C42492913D37900BF01BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731C42482913D37900BF01BF /* SceneDelegate.swift */; };
-		731C42512913D37900BF01BF /* Banking_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 731C424F2913D37900BF01BF /* Banking_App.xcdatamodeld */; };
 		731C42532913D37A00BF01BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 731C42522913D37A00BF01BF /* Assets.xcassets */; };
 		731C42562913D37A00BF01BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 731C42542913D37A00BF01BF /* LaunchScreen.storyboard */; };
 		731C42642913D66C00BF01BF /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731C42632913D66C00BF01BF /* MainTabBarController.swift */; };
@@ -17,13 +16,18 @@
 		731C426A2913D7F400BF01BF /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 731C42682913D7F400BF01BF /* HomeViewController.xib */; };
 		731C426D2913D97D00BF01BF /* AllTransfersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731C426B2913D97D00BF01BF /* AllTransfersViewController.swift */; };
 		731C426E2913D97D00BF01BF /* AllTransfersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 731C426C2913D97D00BF01BF /* AllTransfersViewController.xib */; };
+		731C42732913E5E500BF01BF /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731C42712913E5E500BF01BF /* HomeTableViewCell.swift */; };
+		731C42742913E5E500BF01BF /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 731C42722913E5E500BF01BF /* HomeTableViewCell.xib */; };
+		731C42762913F0EB00BF01BF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731C42752913F0EB00BF01BF /* User.swift */; };
+		731C42792913F88D00BF01BF /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 731C42782913F88D00BF01BF /* Kingfisher */; };
+		731C427B2913FAEE00BF01BF /* BankManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731C427A2913FAEE00BF01BF /* BankManager.swift */; };
+		731C427E2913FB8500BF01BF /* BankControllerErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731C427D2913FB8500BF01BF /* BankControllerErrors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		731C42432913D37900BF01BF /* Banking App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Banking App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		731C42462913D37900BF01BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		731C42482913D37900BF01BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		731C42502913D37900BF01BF /* Banking_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Banking_App.xcdatamodel; sourceTree = "<group>"; };
 		731C42522913D37A00BF01BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		731C42552913D37A00BF01BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		731C42572913D37A00BF01BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -32,6 +36,11 @@
 		731C42682913D7F400BF01BF /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		731C426B2913D97D00BF01BF /* AllTransfersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTransfersViewController.swift; sourceTree = "<group>"; };
 		731C426C2913D97D00BF01BF /* AllTransfersViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AllTransfersViewController.xib; sourceTree = "<group>"; };
+		731C42712913E5E500BF01BF /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		731C42722913E5E500BF01BF /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		731C42752913F0EB00BF01BF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		731C427A2913FAEE00BF01BF /* BankManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankManager.swift; sourceTree = "<group>"; };
+		731C427D2913FB8500BF01BF /* BankControllerErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankControllerErrors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				731C42792913F88D00BF01BF /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,7 +80,6 @@
 				731C425E2913D3F800BF01BF /* Views */,
 				731C425D2913D3F200BF01BF /* Controllers */,
 				731C42572913D37A00BF01BF /* Info.plist */,
-				731C424F2913D37900BF01BF /* Banking_App.xcdatamodeld */,
 			);
 			path = "Banking App";
 			sourceTree = "<group>";
@@ -80,6 +89,7 @@
 			children = (
 				731C42632913D66C00BF01BF /* MainTabBarController.swift */,
 				731C42652913D7AE00BF01BF /* Core */,
+				731C42702913E59700BF01BF /* Cells */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -89,6 +99,7 @@
 			children = (
 				731C42622913D44300BF01BF /* Storyboards */,
 				731C42662913D7CD00BF01BF /* Core */,
+				731C426F2913E55F00BF01BF /* Cells */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -96,6 +107,7 @@
 		731C425F2913D3FE00BF01BF /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				731C42752913F0EB00BF01BF /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -103,6 +115,7 @@
 		731C42602913D40B00BF01BF /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				731C427A2913FAEE00BF01BF /* BankManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -110,6 +123,7 @@
 		731C42612913D42800BF01BF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				731C427C2913FB6300BF01BF /* Enums */,
 				731C42462913D37900BF01BF /* AppDelegate.swift */,
 				731C42482913D37900BF01BF /* SceneDelegate.swift */,
 				731C42522913D37A00BF01BF /* Assets.xcassets */,
@@ -143,6 +157,30 @@
 			path = Core;
 			sourceTree = "<group>";
 		};
+		731C426F2913E55F00BF01BF /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				731C42722913E5E500BF01BF /* HomeTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		731C42702913E59700BF01BF /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				731C42712913E5E500BF01BF /* HomeTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		731C427C2913FB6300BF01BF /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				731C427D2913FB8500BF01BF /* BankControllerErrors.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,6 +197,9 @@
 			dependencies = (
 			);
 			name = "Banking App";
+			packageProductDependencies = (
+				731C42782913F88D00BF01BF /* Kingfisher */,
+			);
 			productName = "Banking App";
 			productReference = 731C42432913D37900BF01BF /* Banking App.app */;
 			productType = "com.apple.product-type.application";
@@ -187,6 +228,9 @@
 				Base,
 			);
 			mainGroup = 731C423A2913D37900BF01BF;
+			packageReferences = (
+				731C42772913F88D00BF01BF /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 731C42442913D37900BF01BF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -204,6 +248,7 @@
 				731C42562913D37A00BF01BF /* LaunchScreen.storyboard in Resources */,
 				731C42532913D37A00BF01BF /* Assets.xcassets in Resources */,
 				731C426A2913D7F400BF01BF /* HomeViewController.xib in Resources */,
+				731C42742913E5E500BF01BF /* HomeTableViewCell.xib in Resources */,
 				731C426E2913D97D00BF01BF /* AllTransfersViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,8 +262,11 @@
 			files = (
 				731C426D2913D97D00BF01BF /* AllTransfersViewController.swift in Sources */,
 				731C42692913D7F400BF01BF /* HomeViewController.swift in Sources */,
+				731C427E2913FB8500BF01BF /* BankControllerErrors.swift in Sources */,
+				731C427B2913FAEE00BF01BF /* BankManager.swift in Sources */,
+				731C42732913E5E500BF01BF /* HomeTableViewCell.swift in Sources */,
 				731C42472913D37900BF01BF /* AppDelegate.swift in Sources */,
-				731C42512913D37900BF01BF /* Banking_App.xcdatamodeld in Sources */,
+				731C42762913F0EB00BF01BF /* User.swift in Sources */,
 				731C42642913D66C00BF01BF /* MainTabBarController.swift in Sources */,
 				731C42492913D37900BF01BF /* SceneDelegate.swift in Sources */,
 			);
@@ -435,18 +483,24 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCVersionGroup section */
-		731C424F2913D37900BF01BF /* Banking_App.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				731C42502913D37900BF01BF /* Banking_App.xcdatamodel */,
-			);
-			currentVersion = 731C42502913D37900BF01BF /* Banking_App.xcdatamodel */;
-			path = Banking_App.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
+/* Begin XCRemoteSwiftPackageReference section */
+		731C42772913F88D00BF01BF /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
 		};
-/* End XCVersionGroup section */
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		731C42782913F88D00BF01BF /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 731C42772913F88D00BF01BF /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 731C423B2913D37900BF01BF /* Project object */;
 }

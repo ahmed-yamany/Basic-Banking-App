@@ -14,10 +14,10 @@ class MainTabBarController: UITabBarController {
         setviewControllers()
     }
     func setviewControllers(){
-        let homeVC = HomeViewController()
+        let homeVC = UINavigationController(rootViewController: HomeViewController())
         setupTabBarItem(of: homeVC, Icon: "house", Title: "Home")
         
-        let allTransefersVC = AllTransfersViewController()
+        let allTransefersVC = UINavigationController(rootViewController: AllTransfersViewController())
         setupTabBarItem(of: allTransefersVC, Icon: "list.bullet.below.rectangle", Title: "All Transfers")
         
         setViewControllers([homeVC, allTransefersVC], animated: false)
