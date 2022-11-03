@@ -9,23 +9,29 @@
 /* Begin PBXBuildFile section */
 		731C42472913D37900BF01BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731C42462913D37900BF01BF /* AppDelegate.swift */; };
 		731C42492913D37900BF01BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731C42482913D37900BF01BF /* SceneDelegate.swift */; };
-		731C424B2913D37900BF01BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731C424A2913D37900BF01BF /* ViewController.swift */; };
-		731C424E2913D37900BF01BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 731C424C2913D37900BF01BF /* Main.storyboard */; };
 		731C42512913D37900BF01BF /* Banking_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 731C424F2913D37900BF01BF /* Banking_App.xcdatamodeld */; };
 		731C42532913D37A00BF01BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 731C42522913D37A00BF01BF /* Assets.xcassets */; };
 		731C42562913D37A00BF01BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 731C42542913D37A00BF01BF /* LaunchScreen.storyboard */; };
+		731C42642913D66C00BF01BF /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731C42632913D66C00BF01BF /* MainTabBarController.swift */; };
+		731C42692913D7F400BF01BF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731C42672913D7F400BF01BF /* HomeViewController.swift */; };
+		731C426A2913D7F400BF01BF /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 731C42682913D7F400BF01BF /* HomeViewController.xib */; };
+		731C426D2913D97D00BF01BF /* AllTransfersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731C426B2913D97D00BF01BF /* AllTransfersViewController.swift */; };
+		731C426E2913D97D00BF01BF /* AllTransfersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 731C426C2913D97D00BF01BF /* AllTransfersViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		731C42432913D37900BF01BF /* Banking App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Banking App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		731C42462913D37900BF01BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		731C42482913D37900BF01BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		731C424A2913D37900BF01BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		731C424D2913D37900BF01BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		731C42502913D37900BF01BF /* Banking_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Banking_App.xcdatamodel; sourceTree = "<group>"; };
 		731C42522913D37A00BF01BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		731C42552913D37A00BF01BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		731C42572913D37A00BF01BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		731C42632913D66C00BF01BF /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		731C42672913D7F400BF01BF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		731C42682913D7F400BF01BF /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		731C426B2913D97D00BF01BF /* AllTransfersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTransfersViewController.swift; sourceTree = "<group>"; };
+		731C426C2913D97D00BF01BF /* AllTransfersViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AllTransfersViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +64,83 @@
 		731C42452913D37900BF01BF /* Banking App */ = {
 			isa = PBXGroup;
 			children = (
-				731C42462913D37900BF01BF /* AppDelegate.swift */,
-				731C42482913D37900BF01BF /* SceneDelegate.swift */,
-				731C424A2913D37900BF01BF /* ViewController.swift */,
-				731C424C2913D37900BF01BF /* Main.storyboard */,
-				731C42522913D37A00BF01BF /* Assets.xcassets */,
-				731C42542913D37A00BF01BF /* LaunchScreen.storyboard */,
+				731C42612913D42800BF01BF /* Resources */,
+				731C42602913D40B00BF01BF /* Managers */,
+				731C425F2913D3FE00BF01BF /* Models */,
+				731C425E2913D3F800BF01BF /* Views */,
+				731C425D2913D3F200BF01BF /* Controllers */,
 				731C42572913D37A00BF01BF /* Info.plist */,
 				731C424F2913D37900BF01BF /* Banking_App.xcdatamodeld */,
 			);
 			path = "Banking App";
+			sourceTree = "<group>";
+		};
+		731C425D2913D3F200BF01BF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				731C42632913D66C00BF01BF /* MainTabBarController.swift */,
+				731C42652913D7AE00BF01BF /* Core */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		731C425E2913D3F800BF01BF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				731C42622913D44300BF01BF /* Storyboards */,
+				731C42662913D7CD00BF01BF /* Core */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		731C425F2913D3FE00BF01BF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		731C42602913D40B00BF01BF /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		731C42612913D42800BF01BF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				731C42462913D37900BF01BF /* AppDelegate.swift */,
+				731C42482913D37900BF01BF /* SceneDelegate.swift */,
+				731C42522913D37A00BF01BF /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		731C42622913D44300BF01BF /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				731C42542913D37A00BF01BF /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		731C42652913D7AE00BF01BF /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				731C426B2913D97D00BF01BF /* AllTransfersViewController.swift */,
+				731C42672913D7F400BF01BF /* HomeViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		731C42662913D7CD00BF01BF /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				731C42682913D7F400BF01BF /* HomeViewController.xib */,
+				731C426C2913D97D00BF01BF /* AllTransfersViewController.xib */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +203,8 @@
 			files = (
 				731C42562913D37A00BF01BF /* LaunchScreen.storyboard in Resources */,
 				731C42532913D37A00BF01BF /* Assets.xcassets in Resources */,
-				731C424E2913D37900BF01BF /* Main.storyboard in Resources */,
+				731C426A2913D7F400BF01BF /* HomeViewController.xib in Resources */,
+				731C426E2913D97D00BF01BF /* AllTransfersViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,9 +215,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				731C424B2913D37900BF01BF /* ViewController.swift in Sources */,
+				731C426D2913D97D00BF01BF /* AllTransfersViewController.swift in Sources */,
+				731C42692913D7F400BF01BF /* HomeViewController.swift in Sources */,
 				731C42472913D37900BF01BF /* AppDelegate.swift in Sources */,
 				731C42512913D37900BF01BF /* Banking_App.xcdatamodeld in Sources */,
+				731C42642913D66C00BF01BF /* MainTabBarController.swift in Sources */,
 				731C42492913D37900BF01BF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,14 +227,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		731C424C2913D37900BF01BF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				731C424D2913D37900BF01BF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		731C42542913D37A00BF01BF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,11 +362,13 @@
 				DEVELOPMENT_TEAM = 4U8DMJ33ZN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Banking App/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Banking;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -322,11 +392,13 @@
 				DEVELOPMENT_TEAM = 4U8DMJ33ZN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Banking App/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Banking;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
