@@ -6,7 +6,8 @@
 //
 
 import UIKit
-import Kingfisher
+
+
 class HomeTableViewCell: UITableViewCell {
     static let identifier = "HomeTableViewCell"
     

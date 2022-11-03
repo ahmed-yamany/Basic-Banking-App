@@ -55,4 +55,11 @@ extension HomeViewController: UITableViewDelegate{
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 120
     }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let user = BankManager.shared.users[indexPath.row]
+        let userVC = UserViewController()
+        userVC.user = user
+        
+        navigationController?.pushViewController(userVC, animated: true)
+    }
 }
